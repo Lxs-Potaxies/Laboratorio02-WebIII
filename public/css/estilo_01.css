@@ -1,0 +1,62 @@
+body {
+    color: #011D42;
+    font-family: 'Newsreader', serif;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+header {
+    background-color: #c7def3; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+.centrar_login {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div_pi {
+    float: left;
+    font-size: 13px;
+    text-align: left;
+}
+
+.div_pc {
+    border-left: 1px rgb(66, 66, 66) solid;
+    border-right: 1px rgb(66, 66, 66) solid;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div_pd {
+    float: left;
+    font-size: 10px;
+    text-align: right;
+}
+
+.letra_menu {
+    font-weight: bold;
+}
+
+.linea_sep {
+    margin-top: 36px;
+}
+
+/* Estilo para los enlaces en el menú */
+.nav-link {
+    color: #ffffff; /* Color de los enlaces */
+    font-weight: bold; /* Negrita para los enlaces */
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Color dorado al pasar el mouse */
+}
